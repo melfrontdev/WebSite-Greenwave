@@ -289,6 +289,16 @@ section.home-sec{
   user-select: none;
 }
 
+#modal-text {
+  text-align: justify;
+  line-height: 1.6;
+  hyphens: auto;
+  word-break: break-word;
+  white-space: pre-wrap;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .modal {
   display: none;  /* escondido por padrão */
   position: fixed; /* fixa na tela */
