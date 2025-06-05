@@ -5,6 +5,8 @@
   font-family: 'Inter', sans-serif;
 }
 
+
+
 /* HEADER */
 .header {
   background-color: #0F4B11;
@@ -19,9 +21,27 @@
   width: 100vw;
   z-index: 100;
 }
+
 body {
   padding-top: 80px; /* para não cobrir o conteúdo */
+  overflow-x: hidden;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(5, 119, 7);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(8, 150, 25);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(28, 93, 3);  /* creates padding around scroll thumb */
+}
+
+
 
 .logo {
   width: 100px;
